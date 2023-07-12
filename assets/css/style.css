@@ -113,8 +113,13 @@ body {
     animation: showcontent 1s ease-in-out 0.3s 1 forwards;  /* set chạy sau 0.3s */
 }
 
-.item button {
-    padding: 10px 20px;
+.item a {
+    display: inline-block;
+    text-decoration: none;
+    text-shadow: none;
+    background-color: #fff;
+    color: #000;
+    padding: 7px 14px;
     cursor: pointer;
     border: none;
     opacity: 0;
@@ -122,7 +127,7 @@ body {
     animation: showcontent 1s ease-in-out 0.6s 1 forwards;  /* set chạy sau 0.6s */
 }
 
-.item button:hover {
+.item a:hover {
     background-color: #505050;
     border-radius: 10px;
     color: #fff;
