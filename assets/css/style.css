@@ -198,10 +198,10 @@ body {
     }
 
     .container {
-        height: 75vw;
-        width: 61vh;
-        left: 45%;
-        top: 48%;
+        height: 80vw;
+        width: 80vh;
+        left: 50%;
+        top: 50%;
     }
 
     .item .content {
