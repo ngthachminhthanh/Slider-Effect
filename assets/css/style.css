@@ -7,9 +7,19 @@
     font-family: "GenshinImpact", sans-serif;
 }
 
+:root{
+    --container-width: 80vh;
+    --container-height: 80vw;
+}
+
 @font-face {
     font-family: 'GenshinImpact';
     src: url(../../assets/hywenhei-cufonfonts/zhcn.ttf);
+}
+
+html {
+    width: 100%;
+    height: 100vh;
 }
 
 
@@ -50,7 +60,7 @@ body {
 }
 
 .item video {
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 
@@ -198,10 +208,11 @@ body {
     }
 
     .container {
-        height: 80vw;
-        width: 80vh;
+        height: var(--container-height);
+        width: var(--container-width);
         left: 50%;
         top: 50%;
+        padding: 0;
     }
 
     .item .content {
